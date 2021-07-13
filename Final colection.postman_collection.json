@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "653c6b0c-225b-4c59-8a86-50f8653a21dd",
+		"name": "Final colection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Jednakostranicni",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 2,\r\n  \"stranicaB\": 2,\r\n  \"stranicaC\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jednakokraki",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 1,\r\n  \"stranicaB\": 2,\r\n  \"stranicaC\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Raznostranicni",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 4,\r\n  \"stranicaB\": 2,\r\n  \"stranicaC\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Velike vrijednosti",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nula",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Slovo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Izostavljanje vrijednosti",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negativan broj",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a+c<b",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simbol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rijec",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Decimalni brojevi sa zarezom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 1,\r\n  \"stranicaB\": 1,25,\r\n  \"stranicaC\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Decimalni brojevi sa tackom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stranicaA\": 80000,\r\n  \"stranicaB\": 40000,\r\n  \"stranicaC\": 60000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{basic_url}}",
+					"host": [
+						"{{basic_url}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
